@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Photography | Hero Tee</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Hero Tee
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Photography Page -->
+    <main class="project-page">
+
+        <div class="project-header">
+
+            <p class="section-intro">PHOTOGRAPHY</p>
+
+            <h1>My Photography</h1>
+
+            <p>
+                A collection of photographs captured by Hero Tee.
+            </p>
+
+        </div>
+
+
+        <!-- Photography Gallery -->
+        <div class="photo-categories">
+
+            <button class="category-btn" data-category="event">
+                Event
+            </button>
+        
+            <button class="category-btn" data-category="lifestyle">
+                Lifestyle
+            </button>
+        
+            <button class="category-btn" data-category="portraits">
+                Portraits
+            </button>
+        
+            <button class="category-btn" data-category="streetshoot">
+                Street Shoot
+            </button>
+        
+            <button class="category-btn" data-category="nightshoot">
+                Night Shoot
+            </button>
+        
+        </div>
+        
+        
+        <div class="photo-gallery" id="photoGallery">
+        
+        </div>
+
+
+        <div class="back-button">
+
+            <a href="index.html#portfolio" class="btn">
+                ← Back to Projects
+            </a>
+
+        </div>
+
+    </main>
+
+   
+<!-- Fullscreen Photo Viewer -->
+<div class="lightbox" id="lightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        &times;
+    </button>
+
+    <button class="lightbox-prev" id="lightboxPrev">
+        &#10094;
+    </button>
+
+    <img id="lightboxImage" src="" alt="">
+
+    <button class="lightbox-next" id="lightboxNext">
+        &#10095;
+    </button>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
