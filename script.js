@@ -25,7 +25,7 @@ const photoCategories = {
 
     streetshoot: {
         folder: "photos/streetshoot",
-        count: 17
+        count: 15
     },
 
     nightshoot: {
