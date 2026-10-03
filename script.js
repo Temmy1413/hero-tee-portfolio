@@ -204,7 +204,7 @@ const designGallery = document.getElementById("designGallery");
 
 if (designGallery) {
 
-    for (let i = 1; i <= 18; i++) {
+    for (let i = 1; i <= 27; i++) {
 
         const imagePath = `designs/designs (${i}).png`;
 
