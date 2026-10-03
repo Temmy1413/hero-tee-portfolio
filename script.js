@@ -20,7 +20,7 @@ const photoCategories = {
 
     portraits: {
         folder: "photos/portraits",
-        count: 22
+        count: 27
     },
 
     streetshoot: {
